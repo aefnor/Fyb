@@ -1,0 +1,21 @@
+{
+  "name": "Austin Coffe App",
+  "description": "The Application was created intended for satisfying thirsty whoremongers",
+  "slug": "my-new-project-test",
+  "privacy": "public",
+  "sdkVersion": "15.0.0",
+  "version": "0.0.1",
+  "orientation": "portrait",
+  "primaryColor": "#cccccc",
+  "icon": "./assets/icons/app.png",
+  "loading": {
+    "icon": "./assets/icons/loading.png",
+    "hideExponentText": false
+  },
+  "packagerOpts": {
+    "assetExts": ["ttf", "mp4"]
+  },
+  "ios": {
+    "supportsTablet": true
+  }
+}
