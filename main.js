@@ -104,17 +104,22 @@ class Main extends React.Component{
         text = JSON.stringify(this.state.location);
       }
 
-      //Comment for getting location in render
+      //Comment for getting location cords\ect in render
       // <Text>{text}</Text> //
 
-      return (
+      return (      //I love dick in my mouth - jewefnor
 
         <View style={styles.container}>
           <Text style={ styles.heading }>Welcome to WhatWouldMyGirlfriendEat</Text>
+          <Button
+            onPress={() => this._navigate('Home')}
+            title="Learn More"
+            color="#841584"
+            accessibilityLabel="Learn more about this purple button"
+          />
  				<TouchableHighlight style={ styles.button } onPress={ () => this._navigate('Home') }>
       		<Text style={ styles.buttonText }>GO GO GO</Text>
       	</TouchableHighlight>
-        <Text>{text}</Text>
         </View>
 
       );
@@ -191,6 +196,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  button: {
+
   },
   test: {
     marginTop: 60
