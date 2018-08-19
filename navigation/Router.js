@@ -2,12 +2,12 @@ import {
     createStackNavigator,
 } from 'react-navigation';
 
-import HomeScreen from "Fyb/components/Homescreen.js"
-import ProfileScreen from "Fyb/components/ProfileScreen.js"
+import HomeScreen from "Fyb/components/HomeScreen.js"
+import MapScreen from "Fyb/components/MapScreen.js"
 
 const Router = createStackNavigator({
     Home: { screen: HomeScreen },
-    Profile: { screen: ProfileScreen },
+    Map: { screen: MapScreen },
 });
 
 export default Router;
